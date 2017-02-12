@@ -5,6 +5,10 @@ showname=yes
 file=.*Python script
 arg=pygmentize -l python
 
+[vhdl]
+file=.*vhd
+arg=pygmentize -l vhdl
+
 [elfs]
 file=.*ELF
 arg=objdump -ft
